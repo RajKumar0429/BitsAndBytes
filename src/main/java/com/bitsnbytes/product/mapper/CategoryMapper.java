@@ -6,6 +6,7 @@ import com.bitsnbytes.product.entity.Category;
 public class CategoryMapper {
 
     public static CategoryDTO toCategoryDTO(Category category){
+        //condition
         if(category == null){
             return null;
         }
